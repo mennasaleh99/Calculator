@@ -37,7 +37,7 @@ class _HomePageState extends State<HomePage> {
               children: [
                 ElevatedButton(
                   onPressed: () {
-                    n1 = int.parse(_textController.text);
+                    n1 = double.parse(_textController.text);
                     _textController.clear();
                     op = '+';
                   },
@@ -49,7 +49,7 @@ class _HomePageState extends State<HomePage> {
                 ),
                 ElevatedButton(
                   onPressed: () {
-                    n1 = int.parse(_textController.text);
+                    n1 = double.parse(_textController.text);
                     _textController.clear();
                     op = '-';
                   },
@@ -61,7 +61,7 @@ class _HomePageState extends State<HomePage> {
                 ),
                 ElevatedButton(
                   onPressed: () {
-                    n1 = int.parse(_textController.text);
+                    n1 = double.parse(_textController.text);
                     _textController.clear();
                     op = '*';
                   },
@@ -73,7 +73,7 @@ class _HomePageState extends State<HomePage> {
                 ),
                 ElevatedButton(
                   onPressed: () {
-                    n1 = int.parse(_textController.text);
+                    n1 = double.parse(_textController.text);
 
                     _textController.clear();
                     op = '/';
@@ -86,7 +86,7 @@ class _HomePageState extends State<HomePage> {
                 ),
                 ElevatedButton(
                   onPressed: () {
-                    n2 = int.parse(_textController.text);
+                    n2 = double.parse(_textController.text);
 
                     _textController.clear();
                     switch (op) {
